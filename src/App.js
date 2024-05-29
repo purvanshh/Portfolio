@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+import AboutMePage from './AboutMePage.js';
 import './App.css';
-import Products from './Products';
+import Component from './Component.js';
+import Navbar from './navbar.js'; // Corrected import with uppercase 'Navbar'
 
 function App() {
   return (
     <div className="App">
-      <Products />
+      <Navbar /> {/* Using uppercase 'Navbar' */}
+      <Component />
+      <AboutMePage />
     </div>
   );
 }
-
 export default App;
