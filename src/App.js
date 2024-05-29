@@ -1,12 +1,12 @@
-import AboutMePage from './AboutMePage.js';
+import AboutMePage from './All Component/About/AboutMePage.js';
 import './App.css';
-import Component from './Component.js';
-import Navbar from './navbar.js'; // Corrected import with uppercase 'Navbar'
+import Component from './All Component/Component/Component.js';
+import Navbar from './All Component/Navbar/navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <Navbar /> {/* Using uppercase 'Navbar' */}
+      <Navbar />
       <Component />
       <AboutMePage />
     </div>

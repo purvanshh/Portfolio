@@ -10,7 +10,7 @@ import Typewriter from 'typewriter-effect';
 const TypewriterComponent = () => (
   <Typewriter
     options={{
-      strings: ['Student', 'Software Developer', 'Open Source Contributor', 'Full Stack Developer'],
+      strings: ['Student', 'Software Developer', 'Open Source Contributor'],
       autoStart: true,
       loop: true,
       typingSpeed: 75,
