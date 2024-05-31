@@ -1,5 +1,10 @@
-
-.tile {
+.tiles-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -9,88 +14,92 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.tile:hover {
+    width: calc(33.333% - 40px); /* Three tiles with margin */
+  }
+  
+  .tile:hover {
     transform: translateY(-15px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-}
-
-.tile h2, .tile h3, .text, .link-parent {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .tile h2, .tile h3, .text, .link-parent {
     padding: 20px;
-}
-
-.tile h2 {
+  }
+  
+  .tile h2 {
     font-size: 24px;
     margin: 0;
     color: #333;
-}
-
-.tile h3 {
+  }
+  
+  .tile h3 {
     font-size: 18px;
     margin: 0;
     color: #555;
-}
-
-.img-parent {
+  }
+  
+  .img-parent {
     text-align: center;
     padding: 20px;
     background-color: #f8f9fa;
-}
-
-.img-parent img {
+  }
+  
+  .img-parent img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-.text {
+  }
+  
+  .text {
     font-size: 16px;
     color: #666;
     line-height: 1.6;
-}
-
-.link-parent {
+  }
+  
+  .link-parent {
     text-align: right;
     background-color: #f8f9fa;
-}
-
-.link {
+  }
+  
+  .link {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
-}
-
-.link:hover {
+  }
+  
+  .link:hover {
     text-decoration: underline;
-}
-
-.tile.left {
+  }
+  
+  .tile.left {
     text-align: left;
-}
-
-.tile.center {
+  }
+  
+  .tile.center {
     text-align: center;
-}
-
-.tile.right {
+  }
+  
+  .tile.right {
     text-align: right;
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
+    .tiles-container {
+      flex-direction: column;
+      align-items: center;
+    }
     .tile {
-        margin: 10px;
+      width: calc(100% - 40px);
+      margin: 10px;
     }
-
     .tile h2 {
-        font-size: 20px;
+      font-size: 20px;
     }
-
     .tile h3 {
-        font-size: 16px;
+      font-size: 16px;
     }
-
     .text {
-        font-size: 14px;
+      font-size: 14px;
     }
-}
+  }
+  
