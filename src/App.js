@@ -21,37 +21,38 @@ function App() {
     <div className="App">
       <Navbar />
       <Component />
+      <h1 className='skill'>Projects</h1>
       <div className="tiles-container">
         <Tile
-          header="Hello"
-          subHeader="World"
+          header="Tic Tac Toe"
+          subHeader="This is a basic tic tac toe game.3"
           img="https://imgs.search.brave.com/b20GAw5dHFdFadqg6JqUsOdDmk9-lmNFm_E7cKm3mD8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg"
-          text="This is a sample text"
-          link="#"
+          text=""
+          link="https://github.com/purvanshh/TicTacToe"
           linkText="Click me!"
-          position="left"
+          position="center"
         />
         <Tile
-          header="Welcome"
-          subHeader="Everyone"
-          img="https://imgs.search.brave.com/b20GAw5dHFdFadqg6JqUsOdDmk9-lmNFm_E7cKm3mD8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg"
-          text="Another sample text"
-          link="#"
+          header="Music Player"
+          subHeader="This is a basic Music Player which is made by using HTML, CSS and JavaScript."
+          img="https://imgs.search.brave.com/T2r6efBBdYUGL6Fh70FcZTaBaQJxVX5jfWXdp0BYpao/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzc5NjE4/OTkvc2NyZWVuc2hv/dHMvMTU4NTkzMDUv/bWVkaWEvNDExZmZk/Y2RkMGM0YWQ2Yjll/NmMxNzg4ZTFlMDVk/ZjMuanBnP3Jlc2l6/ZT00MDB4MA"
+          text=""
+          link="https://mymusicplayer-rho.vercel.app/"
           linkText="Learn more"
           position="center"
         />
         <Tile
           header="React"
           subHeader="Components"
-          img="https://imgs.search.brave.com/b20GAw5dHFdFadqg6JqUsOdDmk9-lmNFm_E7cKm3mD8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg"
-          text="Yet another sample text"
-          link="#"
+          img="https://imgs.search.brave.com/J8FUkJ_yGZYVMdOfDg521emcJp77_7u_uvmEw5pTfLU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jbG91/ZC5naXRodWJ1c2Vy/Y29udGVudC5jb20v/YXNzZXRzLzk5NzYy/MC8xMDYyNTAyNy80/N2IwYWI4YS03Nzdk/LTExZTUtODQ3Ni1h/ZTAxNDhkNDRjNDYu/cG5n"
+          text=""
+          link="https://github.com/purvanshh/Portfolio"
           linkText="Discover"
-          position="right"
+          position="center"
         />
       </div>
       <ProgressBar progress={progress} />
-      <AboutMePage />
+      {/* <AboutMePage /> */}
     </div>
   );
 }

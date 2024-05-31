@@ -1,0 +1,9 @@
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-style: italic;
+    color: rgb(56, 56, 56);
+}
