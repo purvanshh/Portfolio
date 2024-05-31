@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useState, useEffect } from 'react';
 import AboutMePage from './All Component/About/AboutMePage.js';
 import './App.css';
