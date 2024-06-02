@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AboutMePage from './All Component/About/AboutMe.js';
 import './App.css';
 import Component from './All Component/Component/Component.js';
-import Navbar from './All Component/Navbar/Navbar.js';
+import Navbar from './All Component/Navbar/navbar.js';
 import Tile from './All Component/Tile/Tile.js';
 // import ProgressBar from './All Component/ProgressBar/ProgressBar.js';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
