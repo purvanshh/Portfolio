@@ -8,15 +8,13 @@ const AboutMePage = () => {
   return (
     <div className="container">
       <h1 className="title">ABOUT ME</h1>
-      <p className="description">I am a Scaler student who has completed 3 trimesters.</p>
-      <p className="description">I'm a web developer who loves solving problems and building websites.</p>
-      <p className="description">I am passionate about technologies and love to learn new things.</p>
-      <p className="description">I am more interested in building new web technologies and products.</p>
-      <p className="description">
-        I always apply my experience in developing products with Node.js and modern JavaScript libraries and frameworks like
-        React.js.
-      </p>
-      <p className="description">Currently expanding my portfolio by building more projects that I can add here.</p>
+      <p className="description">Hello! I'm a dedicated Scaler student currently navigating my fourth trimester.</p>
+      <p className="description">With a deep passion for web development, I enjoy tackling complex problems and crafting intuitive, user-friendly websites.</p>
+      <p className="description">Technology is my playground. I thrive on learning about the latest advancements and incorporating them into my projects.</p>
+      <p className="description">My primary focus is on developing innovative web technologies and products that make a difference.</p>
+      <p className="description">I'm proficient in Node.js and modern JavaScript libraries and frameworks like React.js, constantly applying this knowledge to create impactful digital solutions.</p>
+      <p className="description">Beyond coding, I love exploring new tech trends, reading about AI advancements, and participating in hackathons.</p>
+      <p className="description">I'm actively building my portfolio with diverse projects, aiming to showcase my skills and creativity here soon.</p>
     </div>
   );
 };
