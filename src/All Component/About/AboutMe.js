@@ -1,7 +1,7 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faStar, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+// import { faStar, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './AboutMe.css';
 
 const AboutMePage = () => {
