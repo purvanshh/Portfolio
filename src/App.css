@@ -54,6 +54,12 @@
     padding: 1rem;
   }
   
+  .tiles-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
   @media (max-width: 768px) {
     .tiles-container {
       flex-direction: column;

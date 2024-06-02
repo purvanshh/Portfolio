@@ -44,13 +44,52 @@ function App() {
             position="center"
           />
           <Tile
-            header="React"
+            header="Portfolio"
             subHeader="This is one of my project."
             img="https://imgs.search.brave.com/J8FUkJ_yGZYVMdOfDg521emcJp77_7u_uvmEw5pTfLU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jbG91/ZC5naXRodWJ1c2Vy/Y29udGVudC5jb20v/YXNzZXRzLzk5NzYy/MC8xMDYyNTAyNy80/N2IwYWI4YS03Nzdk/LTExZTUtODQ3Ni1h/ZTAxNDhkNDRjNDYu/cG5n"
             text=""
             link="https://github.com/purvanshh/Portfolio"
             linkText="Discover"
             position="center"
+          />
+        </div>
+        <h1 className='skill'>Skillsets I Work With</h1>
+        <div className='tiles-container1'>
+          <Tile
+          header={"React"}
+          subHeader={""}
+          img={"https://imgs.search.brave.com/kdhAvDDas6D9BZffTojqoSUyJxxDJW7VgITEc8id15Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/cmVhY3Quc3Zn.svg"}
+          text={""}
+          link={""}
+          linkText={""}
+          position={""}
+          />
+          <Tile
+          header={"Github"}
+          subHeader={""}
+          img={"https://imgs.search.brave.com/b20GAw5dHFdFadqg6JqUsOdDmk9-lmNFm_E7cKm3mD8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg"}
+          text={""}
+          link={""}
+          linkText={""}
+          position={""}
+          />
+          <Tile
+          header={"JavaSript"}
+          subHeader={""}
+          img={"https://imgs.search.brave.com/fAr-gGV6LJ-jK-DGVAYQwz7xfNhw5fxLy9CjCKkA71E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0ovamF2YXNj/cmlwdC1qcy1sb2dv/LTI5NDk3MDE3MDIt/c2Vla2xvZ28uY29t/LnBuZw"}
+          text={""}
+          link={""}
+          linkText={""}
+          position={""}
+          />
+          <Tile
+          header={"Java"}
+          subHeader={""}
+          img={"https://imgs.search.brave.com/-mEXlzS-gesu3kt_oyQ-_bTlMKu0Ie9ok7TM6LwBDkA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDcvSmF2YS1TeW1i/b2wtNzAweDM5NC5w/bmc"}
+          text={""}
+          link={""}
+          linkText={""}
+          position={""}
           />
         </div>
         <AboutMePage />
