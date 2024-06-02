@@ -7,3 +7,60 @@
     font-style: italic;
     color: rgb(56, 56, 56);
 }
+.color-setter{
+    background-color: bisque;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .color-setter {
+    padding: 2rem;
+  }
+  
+  .skill {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    flex: 1 0 300px;
+    margin: 1rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .tiles-container {
+      flex-direction: column;
+    }
+  
+    .tile {
+      width: 100%;
+    }
+  }
+  
