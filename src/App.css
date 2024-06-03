@@ -1,72 +1,96 @@
-.skill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    font-style: italic;
-    color: rgb(56, 56, 56);
-}
-.color-setter{
-    background-color: bisque;
-}
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .App {
-    font-family: Arial, sans-serif;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.color-setter {
+  padding: 2rem;
+  background-color: bisque;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-style: italic;
+  color: rgb(56, 56, 56);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.tile {
+  flex: 1 0 300px;
+  margin: 1rem;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
   .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  .navbar a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 1rem;
-  }
-  
-  .color-setter {
-    padding: 2rem;
-  }
-  
-  .skill {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .tiles-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .tile {
-    flex: 1 0 300px;
-    margin: 1rem;
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    padding: 1rem;
-  }
-  
-  .tiles-container1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  @media (max-width: 768px) {
-    .tiles-container {
       flex-direction: column;
-    }
-  
-    .tile {
-      width: 100%;
-    }
+      text-align: center;
   }
-  
+
+  .navbar a {
+      margin: 0.5rem 0;
+  }
+
+  .tiles-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .tile {
+      width: calc(100% - 2rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .skill {
+      font-size: 1.5rem;
+  }
+
+  .color-setter {
+      padding: 1rem;
+  }
+
+  .tile {
+      margin: 0.5rem;
+      padding: 0.5rem;
+  }
+}

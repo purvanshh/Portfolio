@@ -5,6 +5,7 @@ import Component from './All Component/Component/Component.js';
 import Navbar from './All Component/Navbar/navbar.js';
 import Tile from './All Component/Tile/Tile.js';
 import { BrowserRouter as Router} from 'react-router-dom';
+import Footer from './All Component/Footer/Footer.js';
 
 function App() {
   const [progress, setProgress] = useState(0);
@@ -54,20 +55,11 @@ function App() {
           />
         </div>
         <h1 className='skill'>Skillsets I Work With</h1>
-        <div className='tiles-container1'>
+        <div className='tiles-container'>
           <Tile
           header={"React"}
           subHeader={""}
           img={"https://imgs.search.brave.com/kdhAvDDas6D9BZffTojqoSUyJxxDJW7VgITEc8id15Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/cmVhY3Quc3Zn.svg"}
-          text={""}
-          link={""}
-          linkText={""}
-          position={""}
-          />
-          <Tile
-          header={"Github"}
-          subHeader={""}
-          img={"https://imgs.search.brave.com/b20GAw5dHFdFadqg6JqUsOdDmk9-lmNFm_E7cKm3mD8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc.svg"}
           text={""}
           link={""}
           linkText={""}
@@ -93,6 +85,7 @@ function App() {
           />
         </div>
         <AboutMePage />
+        <Footer />
       </div>
     </Router>
     </div>
