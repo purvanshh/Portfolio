@@ -11,10 +11,10 @@ function Navbar() {
           <FontAwesomeIcon icon={faHome} /> Home
         </li>
         <li className="nav-item">
-          <FontAwesomeIcon icon={faInfoCircle} /> About
+          <FontAwesomeIcon icon={faProjectDiagram} /> Projects
         </li>
         <li className="nav-item">
-          <FontAwesomeIcon icon={faProjectDiagram} /> Projects
+          <FontAwesomeIcon icon={faInfoCircle} /> About
         </li>
         <li className="nav-item">
           <FontAwesomeIcon icon={faFileAlt} /> Resume
