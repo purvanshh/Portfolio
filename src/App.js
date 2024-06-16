@@ -1,18 +1,19 @@
-import AboutMePage from './All Component/About/AboutMe.js';
+import React from 'react';
 import './App.css';
 import Component from './All Component/Component/Component.js';
 import Navbar from './All Component/Navbar/navbar.js';
 import Tile from './All Component/Tile/Tile.js';
-import { BrowserRouter as Router} from 'react-router-dom';
 import Footer from './All Component/Footer/Footer.js';
+import AboutMePage from './All Component/About/AboutMe.js';
 
 function App() {
   return (
     <div className="App">
-      <Router>
       <Navbar />
-      <Component />
-      <div className='color-setter'>
+      <div id="home">
+        <Component />
+      </div>
+      <div id="projects" className='color-setter'>
         <h1 className='skill'>Projects</h1>
         <div className="tiles-container">
           <Tile
@@ -43,40 +44,14 @@ function App() {
             position="center"
           />
         </div>
-        <h1 className='skill'>Skillsets I Work With</h1>
-        <div className='tiles-container'>
-          <Tile
-          header={"React"}
-          subHeader={""}
-          img={"https://imgs.search.brave.com/kdhAvDDas6D9BZffTojqoSUyJxxDJW7VgITEc8id15Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/cmVhY3Quc3Zn.svg"}
-          text={""}
-          link={""}
-          linkText={""}
-          position={""}
-          />
-          <Tile
-          header={"JavaSript"}
-          subHeader={""}
-          img={"https://imgs.search.brave.com/fAr-gGV6LJ-jK-DGVAYQwz7xfNhw5fxLy9CjCKkA71E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0ovamF2YXNj/cmlwdC1qcy1sb2dv/LTI5NDk3MDE3MDIt/c2Vla2xvZ28uY29t/LnBuZw"}
-          text={""}
-          link={""}
-          linkText={""}
-          position={""}
-          />
-          <Tile
-          header={"Java"}
-          subHeader={""}
-          img={"https://imgs.search.brave.com/-mEXlzS-gesu3kt_oyQ-_bTlMKu0Ie9ok7TM6LwBDkA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDcvSmF2YS1TeW1i/b2wtNzAweDM5NC5w/bmc"}
-          text={""}
-          link={""}
-          linkText={""}
-          position={""}
-          />
-        </div>
-        <AboutMePage />
-        <Footer />
       </div>
-    </Router>
+      <div id="about">
+        <AboutMePage />
+      </div>
+      <div id="resume">
+        {/* Resume component content goes here */}
+      </div>
+      <Footer />
     </div>
   );
 }
