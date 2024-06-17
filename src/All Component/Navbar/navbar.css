@@ -1,14 +1,16 @@
 .nav {
     background-color: #0d192b;
     color: white;
-    padding: 10px;
+    padding: 20px;
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
+    font-style: italic;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-list {
@@ -20,6 +22,7 @@
 }
 
 .nav-item {
+    margin: 0 20px;
     padding: 10px;
     cursor: pointer;
     position: relative;
@@ -31,6 +34,16 @@
 .nav-item > svg {
     margin-right: 7px;
     margin-left: 10px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .nav-item::after {
@@ -50,6 +63,7 @@
 
 @media (max-width: 768px) {
     .nav {
+        justify-content: center;
         padding: 10px 20px;
     }
 
@@ -60,6 +74,7 @@
     }
 
     .nav-item {
+        margin: 10px 0;
         padding: 10px 20px;
         width: 100%;
         text-align: right;
