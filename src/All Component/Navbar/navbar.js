@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <Link to="resume" smooth={true} duration={500}>
-            <FontAwesomeIcon icon={faFileAlt} /> Resume
+            <FontAwesomeIcon icon={faFileAlt} /> Contact
           </Link>
         </li>
       </ul>

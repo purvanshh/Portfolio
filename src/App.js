@@ -60,9 +60,8 @@ function App() {
         <AboutMePage />
       </div>
       <div id="resume">
-        
-      </div>
       <Footer />
+      </div>
     </div>
       </div>
   );
